@@ -40,18 +40,18 @@ contact:
 # Configuration for social media links
 # Comment out links you don't want to use (RSS is an example)
   social_links:
-    - text: Facebook
-      href: https://facebook.com
-      external: true
-      type: facebook
-    - text: Twitter
-      href: https://twitter.com
-      external: true
-      type: twitter
-    - text: YouTube
-      href: https://youtube.com
-      external: true
-      type: youtube
+  ##  - text: Facebook
+  ##    href: https://facebook.com
+  ##   external: true
+  ##    type: facebook
+  ##  - text: Twitter
+  ##    href: https://twitter.com
+  ##    external: true
+  ##    type: twitter
+  ##  - text: YouTube
+  ##    href: https://youtube.com
+  ##    external: true
+  ##    type: youtube
   # - text: RSS Feed
   #   href: https://usa.gov/
   #   external: true
@@ -59,7 +59,7 @@ contact:
   heading: Contact
 # Configuration for contact links for email, phone, etc...
   contact_links:
-    - text: (800) PHONE
-      href: tel:1-800-555-5555
+  #  - text: (800) PHONE
+  #    href: tel:1-800-555-5555
     - text: info@actiac.org
       href: mailto:info@actiac.org

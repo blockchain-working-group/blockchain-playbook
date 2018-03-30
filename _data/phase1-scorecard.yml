@@ -1,0 +1,302 @@
+questions:
+  - question-title: Will the use case involve a business network, which spans multiple organizations/agencies?
+    question-description: While a single organization may be used for an initial proof of concept or pilot, the varying degrees of trust among multiple organizations/agencies lead to a stronger long-term case for blockchain. These organizations will look to sharing a common asset or requiring consensus.
+    question: assessment-1
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-1-0
+      - value: 1
+        label: 1 – Slightly
+        id: assessment-1-1
+      - value: 2
+        label: 2 - Moderate
+        id: assessment-1-2
+      - value: 3
+        label: 3 - High
+        id: assessment-1-3
+      - value: 4
+        label: 4 – Very High
+        id: assessment-1-4
+      - value: 5
+        label: 5 - Critical
+        id: assessment-1-5
+  - question-title: Is there a current lack of trust among the business network participants and/or sources of data?
+    question-description: Sources may include Internet of Things (IoT) devices, legacy systems, service providers, and users from multiple agencies. Note that the Blockchain supports data integrity but does not have inherent capabilities to validate data quality.
+    question: assessment-2
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-2-0
+      - value: 1
+        label: 1 – Slightly
+        id: assessment-2-1
+      - value: 2
+        label: 2 - Moderate
+        id: assessment-2-2
+      - value: 3
+        label: 3 - High
+        id: assessment-2-3
+      - value: 4
+        label: 4 – Very High
+        id: assessment-2-4
+      - value: 5
+        label: 5 - Critical
+        id: assessment-2-5
+  - question-title: Would the organizations in your use case benefit from a shared governance and data standards approach? 
+    question-description: This is specific to the potential need to create a custodian [owner] of membership for the actors and organizations within your process.
+    question: assessment-3
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-3-0
+      - value: 1
+        label: 1 – Slightly
+        id: assessment-3-1
+      - value: 2
+        label: 2 - Moderate
+        id: assessment-3-2
+      - value: 3
+        label: 3 - High
+        id: assessment-3-3
+      - value: 4
+        label: 4 – Very High
+        id: assessment-3-4
+      - value: 5
+        label: 5 - Critical
+        id: assessment-3-5
+  - question-title: Is this a use case that can be more efficiently solved with other technologies (e.g. distributed database)?
+    question-description: Do those technologies provide the same benefits that a blockchain solution will provide for this use case and would this solution be applicable for all parties?
+    question: assessment-4
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-4-0
+      - value: -1
+        label: 1 – Slightly
+        id: assessment-4-1
+      - value: -2
+        label: 2 - Moderate
+        id: assessment-4-2
+      - value: -3
+        label: 3 - High
+        id: assessment-4-3
+      - value: -4
+        label: 4 – Very High
+        id: assessment-4-4
+      - value: -5
+        label: 5 - Critical
+        id: assessment-4-5
+  - question-title: 5.	Does the use case require or can it benefit from strict transaction immutability?
+    question-description: Ledger transaction entries are append-only. Transaction records cannot be altered (even by the admin).
+    question: assessment-5
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-5-0
+      - value: 1
+        label: 1 – Slightly
+        id: assessment-5-1
+      - value: 2
+        label: 2 - Moderate
+        id: assessment-5-2
+      - value: 3
+        label: 3 - High
+        id: assessment-5-3
+      - value: 4
+        label: 4 – Very High
+        id: assessment-5-4
+      - value: 5
+        label: 5 - Critical
+        id: assessment-5-5
+  - question-title: Does the use case require or can it benefit from using distributed ledgers and a decentralized authority approach?  
+    question-description: 
+    question: assessment-6
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-6-0
+      - value: 1
+        label: 1 – Slightly
+        id: assessment-6-1
+      - value: 2
+        label: 2 - Moderate
+        id: assessment-6-2
+      - value: 3
+        label: 3 - High
+        id: assessment-6-3
+      - value: 4
+        label: 4 – Very High
+        id: assessment-6-4
+      - value: 5
+        label: 5 - Critical
+        id: assessment-6-5
+  - question-title: Can your organization benefit from transforming respective business capabilities into a decentralized organization?
+    question-description: 
+    question: assessment-7
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-7-0
+      - value: 1
+        label: 1 – Slightly
+        id: assessment-7-1
+      - value: 2
+        label: 2 - Moderate
+        id: assessment-7-2
+      - value: 3
+        label: 3 - High
+        id: assessment-7-3
+      - value: 4
+        label: 4 – Very High
+        id: assessment-7-4
+      - value: 5
+        label: 5 - Critical
+        id: assessment-7-5
+  - question-title: If you are able to repurpose business logic to a distributed organization – have you identified how your Core Competencies will benefit? 
+    question-description: Consider the full business considerations of a blockchain approach that go beyond the technologies involved and may impact organization, business processes, workflow, customer interaction, and other factors.
+    question: assessment-8
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-8-0
+      - value: 1
+        label: 1 – Slightly
+        id: assessment-8-1
+      - value: 2
+        label: 2 - Moderate
+        id: assessment-8-2
+      - value: 3
+        label: 3 - High
+        id: assessment-8-3
+      - value: 4
+        label: 4 – Very High
+        id: assessment-8-4
+      - value: 5
+        label: 5 - Critical
+        id: assessment-8-5
+  - question-title: Are there existing inter-organization business process inefficiencies? 
+    question-description: (e.g. an excessive amount of time being spent on reconciliation) 
+    question: assessment-9
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-9-0
+      - value: 1
+        label: 1 – Slightly
+        id: assessment-9-1
+      - value: 2
+        label: 2 - Moderate
+        id: assessment-9-2
+      - value: 3
+        label: 3 - High
+        id: assessment-9-3
+      - value: 4
+        label: 4 – Very High
+        id: assessment-9-4
+      - value: 5
+        label: 5 - Critical
+        id: assessment-9-5
+  - question-title: Are you looking for a vehicle to securely share reference data among members of the business network?
+    question-description: 
+    question: assessment-10
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-10-0
+      - value: 1
+        label: 1 – Slightly
+        id: assessment-10-1
+      - value: 2
+        label: 2 - Moderate
+        id: assessment-10-2
+      - value: 3
+        label: 3 - High
+        id: assessment-10-3
+      - value: 4
+        label: 4 – Very High
+        id: assessment-10-4
+      - value: 5
+        label: 5 - Critical
+        id: assessment-10-5
+  - question-title: Does provenance of a digitized asset – a record tracking the lifetime history of an asset – as it is controlled/owned by different members of the business network apply? 
+    question-description: (e.g. moving from factory to distribution center to final destination across the life cycle)?
+    question: assessment-11
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-11-0
+      - value: 1
+        label: 1 – Slightly
+        id: assessment-11-1
+      - value: 2
+        label: 2 - Moderate
+        id: assessment-11-2
+      - value: 3
+        label: 3 - High
+        id: assessment-11-3
+      - value: 4
+        label: 4 – Very High
+        id: assessment-11-4
+      - value: 5
+        label: 5 - Critical
+        id: assessment-11-5
+  - question-title: For this use case, is there an existing system that could serve as a trusted source of the truth for all parties?    
+    question-description: Would that system be accessible by all parties?
+    question: assessment-12
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-12-0
+      - value: -1
+        label: 1 – Slightly
+        id: assessment-12-1
+      - value: -2
+        label: 2 - Moderate
+        id: assessment-12-2
+      - value: -3
+        label: 3 - High
+        id: assessment-12-3
+      - value: -4
+        label: 4 – Very High
+        id: assessment-12-4
+      - value: -5
+        label: 5 - Critical
+        id: assessment-12-5
+  - question-title: Does the use case have high performance requirements? (transactions per second (TPS) > 3K/sec)? 
+    question-description: Note that high performance/near real-time requirements are typically not yet met by blockchain solutions, but platforms and performance numbers will continue to evolve.
+    question: assessment-13
+    values:
+      - value: 0
+        label: 0 – Not at all
+        checked: true
+        id: assessment-13-0
+      - value: -1
+        label: 1 – Slightly
+        id: assessment-13-1
+      - value: -2
+        label: 2 - Moderate
+        id: assessment-13-2
+      - value: -3
+        label: 3 - High
+        id: assessment-13-3
+      - value: -4
+        label: 4 – Very High
+        id: assessment-13-4
+      - value: -5
+        label: 5 - Critical
+        id: assessment-13-5
+
+

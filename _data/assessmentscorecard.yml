@@ -1,0 +1,209 @@
+question1:
+  question-title: Will the use case involve a business network, which spans multiple organizations/agencies?
+  question-description: While a single organization may be used for an initial proof of concept or pilot, the varying degrees of trust among multiple organizations/agencies lead to a stronger long-term case for blockchain. These organizations will look to sharing a common asset or requiring consensus.
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question2:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question3:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question4:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question5:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question6:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question7:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question8:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question9:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question10:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question11:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question12:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical
+
+question13:
+  question: assessment-1
+  values:
+    - value: 0
+      label: 0 – Not at all
+    - value: 1
+      label: 1 – Slightly
+    - value: 2
+      label: 2 - Moderate
+    - value: 3
+      label: 3 - High
+    - value: 4
+      label: 4 – Very High
+    - value: 5
+      label: 5 - Critical

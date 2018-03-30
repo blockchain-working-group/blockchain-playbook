@@ -32,8 +32,12 @@ primary:
     href: /references/
   - text: Appendices
     href: /appendices/
+  - text: About
+    href: /about/
 
 secondary:
+  - text: Quickstart
+    href: /quickstart/
   - text: ACT-IAC
     href: https://www.actiac.org
     external: true

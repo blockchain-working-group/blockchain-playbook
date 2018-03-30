@@ -51,9 +51,9 @@ graphics:
 
 ## More
 
-This Playbook comes right after the Primer and proposes a process and a series of phases to support the United States Federal government in its understanding and application of blockchain and distributed ledger technologies for its mission. Each phase contains a set of key activities organized in function areas that go beyond just the technical aspect of blockchain and cover management, people, process and acquisition areas.
+This Playbook is a living document that will be updated as needed and at the discretion of the blockchain working group.
 
-Further distribution or publication is expressly prohibited by ACT-IAC policy
+Further distribution or publication of its content is expressly prohibited by ACT-IAC policy
 {: .usa-font-lead }
 
 [Start](/intro){: .usa-button .usa-button-big }
