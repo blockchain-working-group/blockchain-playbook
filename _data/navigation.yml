@@ -42,6 +42,20 @@ secondary:
     href: https://www.actiac.org
     external: true
 
+playbook:
+  - text: Introduction
+    href: /intro/
+  - text: Assessment 
+    href: /phases/1/
+  - text: Readiness 
+    href: /phases/2/
+  - text: Selection
+    href: /phases/3/
+  - text: Implementation
+    href: /phases/4/
+  - text: Integration
+    href: /phases/5/
+
 docs:
   - text: Sidenav Documentation
     href: /docs/

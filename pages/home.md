@@ -56,4 +56,4 @@ This Playbook is a living document that will be updated as needed and at the dis
 Further distribution or publication of its content is expressly prohibited by ACT-IAC policy
 {: .usa-font-lead }
 
-[Start](/intro){: .usa-button .usa-button-big }
+[Start](/intro/){: .usa-button .usa-button-big }

@@ -2,11 +2,7 @@
 title: Assessment
 layout: page
 permalink: /phases/1/
-subnav:
-  - text: Section one
-    href: '#practical-advice-and-best-practices-for-blockchain-assessment'
-  - text: Outcomes
-    href: '#outcomes'
+sidenav: playbook
 ---
 
 # Phase 1 - Problem Assessment
