@@ -1,0 +1,71 @@
+key-considerations:
+  - id: 1
+    key-consideration: Readiness assessment
+    description: For the selected MVP, assess the people, process and technology readiness for the use case(s) that disrupt least number of business touch points but yet have highest scope of improvement because of DLT.
+    analysis: Starting small allows for demonstrating an emerging technology like blockchain to be refined rapidly. It enables the stakeholders to get the first-hand experience and allows the high level concepts to become tangible. Choosing and assessing the readiness of a process that primary stakeholders have complete control of can allow for better governance, faster change management, and ROI assessment. In the Readiness Phase, assess the readiness for the smallest scope by building the constructs to get prepared for technology expansion.
+    takeaway: Assess the readiness for a process that is controlled end to end for demonstrating the highest value.
+  - id: 2
+    key-consideration: Change management approach
+    description: Have a user-centric change management approach, starting right from project initiation.
+    analysis: Change management for emerging technology areas should not be considered as only a post-rollout activity. It should be a key factor considered for all the phases from assessment to production. The way impacted users understand, learn, and adopt the solution becomes the most important factor for demonstrating the key benefits of the platform over time.
+    takeaway: Change management should be the top priority to maximize learning and adoption of the proposed solution.
+  - id: 3
+    key-consideration: Project management approach
+    description: Decide on a project management approach that allows management of all the network participants and their activities.
+    analysis: While setting up the blockchain PMO and governance processes, it is critical to decide the project management approach for the initiative. Given that blockchain technology is fluid, agile development would be favored over traditional waterfall or iterative approaches. Agile allows cross-functional, cross-partner teams to remain continuously involved in the product development. This aspect is also critical for success of any DLT initiative, given the number of participants and responsibilities.
+    takeaway: Agile product management is best suited to ensure continuous stakeholder involvement and response to continuously changing landscape.
+  - id: 4
+    key-consideration: Consortiums
+    description: Join or, in rare cases, create consortiums of members that have common goals.
+    analysis: Blockchain ecosystems typically involve multiple parties in an industry working together in a consortium to support and leverage a blockchain platform. It is often better to choose the consortium and become a participant once an organization has assessed its use cases and scope.
+    takeaway: It is best to be part of an industry consortium to get maximum benefits from a given blockchain ecosystem. These consortiums will be responsible for standardizing the blockchains in the future.
+  - id: 5
+    key-consideration: Enterprise integration
+    description: Determine the context of the blockchain system.
+    analysis: For most enterprise use cases, blockchain technology will be part of the core infrastructure and should be able to integrate seamlessly with other legacy systems.
+    takeaway: Create a concept of operations (CONOPS) for the proposed solution to explain the system context in the vision.
+  - id: 6
+    key-consideration: Value transfer risks
+    description: Identify and manage value transfer risks for the value transfer use cases.
+    analysis: A blockchain needs to manage the risks that were being handled by the central intermediaries whom they aim to eliminate. These include fraud detection, key management, asset security, and other risks associated with the value transfer network.
+    takeaway: Risk management will need to go beyond traditional people, process, and technology risks to create the management process for risks associated with security, fraud, and new costs of the proposed solution.
+  - id: 7
+    key-consideration: Consensus mechanism
+    description: Define the consensus mechanism.
+    analysis: Readiness Phase activities should include rethinking the conceptual model for Interagency Agreements and/or Memorandums of Understanding/Agreement to shift away from a centralized security approach. This may need education for information security and procurement teams to understand the complexities and evolving needs of blockchain security.
+    takeaway: Create common understanding on consensus and security mechanisms, as well as corresponding participant liabilities and responsibilities.
+  - id: 8
+    key-consideration: Performance expectations
+    description: Establish pragmatic performance expectations in terms of metrics, such as transaction speed.
+    analysis: Blockchains are not a replacement of traditional high-performing, super-tuned databases. They are a complementary technology meant to solve different problem domains/use cases.
+    takeaway: Create realistic non-functional requirements due to current blockchain capability tradeoffs.
+  - id: 9
+    key-consideration: Framework-based design
+    description: Establish guidelines for a blockchain technology framework that is modular, reusable, and extendible.
+    analysis: The technological landscape is fluid. Projects based on today's solutions will have to be reworked or re- implemented onto the eventual leading platforms in the future. Consider government wide initiatives using a shared services/platform approach and open source software.
+    takeaway: Blockchain is still an emerging technology. Aim for reusability but, more importantly, modularity and extensibility.
+  - id: 10
+    key-consideration: Cross-functional team
+    description: Establish a cross-functional government team.
+    analysis: In addition to enterprise IT and business and functional teams, blockchain initiatives must engage with customers in this phase. The governance team must ensure to engage risk management, regulatory compliance, IT operations, finance, accounting and tax teams, etc. to ensure that the requirements of these stakeholders are recorded appropriately.
+    takeaway: Create commitment. Draft charters to ensure ongoing support from multiple organizations. Identify tools that can support inter- and intra-organizational development and communication activities (e.g. using cloud-based public-sector tools, etc.)
+  - id: 11
+    key-consideration: Talent management
+    description: Define the skillset and training needed to implement and maintain blockchain initiatives.
+    analysis: Organizations will need experienced IT talent who can implement and maintain blockchains, as well as support network participants. Government agencies may have to rely on technology partners and third-party vendors who have a working knowledge of different blockchain ecosystems.
+    takeaway: Consider training and developing internal talent for continuity while leveraging external talent on an as needed basis for immediate initiatives.
+  - id: 12
+    key-consideration: User experience
+    description: Establish user- centric design guidelines.
+    analysis: Blockchain is generally considered a backend technology which end-user facing system rarely see directly. That may or may not be true for all the use cases. Other than the underlying code and algorithm, every user touch point must be designed with user-centricity focus. All users – such as backend, administrators and enterprise users – should get the same quality of experience as the end users. Laying the ground rules for design right from Readiness Phase helps in enterprise-wide adoption in the long run and in covering all the non- functional requirements, such as privacy, confidentiality, security and personalization.
+    takeaway: User experience is critical for enterprise- wide adoption and should be looked from middle/backend users’ perspective across every user touchpoint that is in the purview of the selected use case(s). Iterative agile approach with product ownership and Lean UX techniques can be utilized to ensure the best user experience.
+  - id: 13
+    key-consideration: Emerging tech specific risk management
+    description: Understand the agency’s risk appetite and plan, communicate, mitigate and discover risks continuously.
+    analysis: Agencies that do not accept risk may not be willing to be involved in blockchain, as this is an evolving technology. Risks related to emerging technology must be managed as the top-most governance activity for such agencies.
+    takeaway: Manage risks with the focus on change management, technology immaturity, availability and sustainability of skills, lack of standards, acceptability of disintermediation, switching and sunk costs, network effects, securing agreements and stakeholder adoption.
+  - id: 14
+    key-consideration: Expansion strategy
+    description: Create an implementation strategy that allows the program to expand in a risk- controlled manner.
+    analysis: Starting small in a controlled business process with high impact on the day to day transactions of end users is the best strategy. But that should not mean postponing the strategy planning and design for expansion, its associated risks, and mitigation strategies.
+    takeaway: Start with the expansion in mind. Acknowledge and communicate the gaps in the initial implementation to finally allow filling them up during expansion.

@@ -31,7 +31,23 @@ primary:
   - text: References
     href: /references/
   - text: Appendices
-    href: /appendices/
+    links:
+      - text: Appendix A
+        href: /appendices/A/
+      - text: Appendix B
+        href: /appendices/B/
+      - text: Appendix C
+        href: /appendices/C/
+      - text: Appendix D
+        href: /appendices/D/
+      - text: Appendix E
+        href: /appendices/E/
+      - text: Appendix F
+        href: /appendices/F/
+      - text: Appendix G
+        href: /appendices/G/
+      - text: Appendix H
+        href: /appendices/H/    
   - text: About
     href: /about/
 

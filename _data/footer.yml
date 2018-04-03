@@ -56,10 +56,12 @@ contact:
   #   href: https://usa.gov/
   #   external: true
   #   type: rss
-  heading: Contact
+  heading: Contacts
 # Configuration for contact links for email, phone, etc...
   contact_links:
   #  - text: (800) PHONE
   #    href: tel:1-800-555-5555
-    - text: info@actiac.org
-      href: mailto:info@actiac.org
+    - text: Frederic de Vaulx
+      href: mailto:f.devaulx@prometheuscomputing.com
+    - text: Todd Hager
+      href: mailto:thager@macrosolutions.com

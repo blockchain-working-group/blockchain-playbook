@@ -47,3 +47,21 @@ This is link that goes to an [external website](https://18f.gsa.gov){: .usa-exte
 |  Bill of Rights | The first ten amendments of the U.S. Constitution guaranteeing rights and freedoms. | 1791 |
 | Declaration of Sentiments  | A document written during the Seneca Falls Convention outlining the rights that American women should be entitled to as citizens. | 1848 |
 | Emancipation Proclamation  | An executive order granting freedom to slaves in designated southern states. | 1863 |
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col" colspan="2"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Features</th>
+            <td>
+                <ul>
+                    <li></li>
+                </ul>
+             </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,56 @@
+blockchain-types:
+  - type: Permissionless
+    col1: Yes
+    col2: Yes
+    col3: No
+    col4: Not always
+    col5: Yes
+    col6: Yes
+    col7: Anyone can join(Membership with anonymity)
+    col8: Any node can participate in consensus based proof of work
+    col9: Suitable for on chain assets (Virtual bearer asset) e.g. , Bitcoin/Ether
+    col10: Decentralized with consensus among peer nodes
+  - type: Public Permissioned
+    col1: Yes
+    col2: Yes
+    col3: No
+    col4: Not always
+    col5: Yes
+    col6: No
+    col7: Members who fulfill certain criteria can download protocol and have access to blockchain ledger and participate in consensus. Other clients may or may not have ledger copy and access network based on Permissions (Membership with identity)
+    col8: Any node can participate in consensus based proof of stake
+    col9: Bearer asset becomes registered asset
+    col10: Decentralized with consensus depending on blockchain implementation
+  - type: Private Permissioned
+    col1: Yes
+    col2: Yes
+    col3: No
+    col4: Not always
+    col5: No
+    col6: No
+    col7: Only Consortium nodes have peer nodes with ledger and pre-selected nodes participate in consensus. Other clients only access network but have no ledger. (Membership with identity)
+    col8: Pre-selected nodes in consortium participate in endorsement and ordering of transaction blocks in blockchain
+    col9: Suitable for off-chain assets (securities, fiat, titles)
+    col10: Decentralized or Centralized with consensus depending on blockchain implementation
+  - type: No Blockchain
+    col1: No
+    col2: No
+    col3: Yes
+    col4: Yes
+    col5: No
+    col6: No
+    col7: Participants or clients have no ledger or participate in consensus (Membership with identity)
+    col8: Only trusted validators
+    col9: Suitable for online/offline asset
+    col10: Centralized or Distributed databases with no consensus
+  - type: Blockchain Thread
+    col1: Yes
+    col2: Yes
+    col3: No
+    col4: Not always
+    col5: No
+    col6: Yes
+    col7: Membership with identity
+    col8: Any node which fulfills certain criteria or pre-selected nodes participate in consensus. (Depends on the type of blockchain implementation and use case)
+    col9: Suitable for on chain assets (Virtual bearer asset) e.g. Bitcoin/Ether
+    col10: Utilizing just a thread of blockchain. Emphasizing not having to do a full lift and shift but using a thread with existing solutions to get gains in efficiencies, gains in savings and lower risks

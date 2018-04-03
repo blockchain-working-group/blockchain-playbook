@@ -3,6 +3,10 @@ title: Assessment
 layout: page
 permalink: /phases/1/
 sidenav: playbook
+
+scripts:
+  - ../../assets/playbook/js/assessment-app.js
+
 ---
 
 # Phase 1 - Problem Assessment
@@ -17,7 +21,7 @@ Blockchain is the catalyst for tectonic shift in the accepted business model: de
  
 To fully assess opportunities in blockchain, engage with stakeholders to refine the use case the blockchain initiative will address. Identify and document the context of the use case. This includes the business challenge; business process issues, gaps, and/or frictions that contribute to that challenge; and stakeholder needs. Detail the stakeholders’ functional requirements. Also, determine their perceived risks related to implementing a solution along with their expected outcomes and the associated metrics. 
 
-![Playbook Phases](../../assets/img/playbook/playbook-process-phase0.png)
+![Playbook Phases](../../assets/img/playbook/playbook-process-phase1-alt.png)
 _Figure 3: assessment phase (1) summary_
 
 ## “Do I need a blockchain?” 
@@ -30,36 +34,51 @@ The following are key questions to consider when evaluating a blockchain solutio
 **Note:** This is a notional table and the level of importance associated with each question may be tied to the use case being assessed. Assign Points based on the Attribute Importance Rank (with suggested weighting). You may adjust the weight of questions as they apply to your use case. (5 – critical, 4 – very high, 3 – high, 2 – moderate, 1 – slightly, 0 – not at all) 
 
 <form lpformnum="1">
-    <ol>
-        {% for quest in site.data.phase1-scorecard.questions %}
-        <li>
-            <b>{{quest.question-title}}</b> {{quest.question-description}}
-            <br/>
-            <fieldset class="usa-fieldset-inputs usa-offset-one-twelfth">    
-                <ol class="usa-unstyled-list">
-                    {% for rb in quest.values %}
-                    <li class="answer">
-                        <input id="{{ rb.id }}" type="radio" name="{{ quest.question }}" value="{{rb.value}}" {% if rb.checked %} checked {% endif %}>
-                        <label for="{{ rb.id }}">{{ rb.label }}</label>
-                    </li>
-                    {% endfor %}
-                </ol>
-            </fieldset>
-        </li>
-        {% endfor %}
-    </ol>
-</form>
+    <div id="assessment-app">
+    <div class="assessments">    
+        <ol>
+            {% for quest in site.data.phase1-scorecard.questions %}
+            <li>
+                <b>{{quest.question-title}}</b> {{quest.question-description}}
+                <br/>
+                <fieldset class="usa-fieldset-inputs usa-offset-one-twelfth">    
+                    <ol class="usa-unstyled-list">
+                        {% for rb in quest.values %}
+                        <li class="answer">
+                            <input id="{{ rb.id }}" type="radio" onclick="updateResult()" name="{{ quest.question }}" value="{{rb.value}}" {% if rb.checked %} checked {% endif %}>
+                            <label for="{{ rb.id }}">{{ rb.label }}</label>
+                        </li>
+                        {% endfor %}
+                    </ol>
+                </fieldset>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
 
-### Results
+<h3> Results </h3>
 Provided here are common questions and relative weights for answers to serve as a preliminary guide for those considering a blockchain approach. While useful, this is still only a guide for consideration and further investigation. Sound engineering analysis and practices should still prevail. 
 
-**Score Groupings:** In order to assess the applicability of a blockchain approach, we have grouped scores to guide the reader to where taking a blockchain approach would be most beneficial (highest score) and where it is less likely (but still may be applicable, just needs more scrutiny).
+<b>Score Groupings:</b> In order to assess the applicability of a blockchain approach, we have grouped scores to guide the reader to where taking a blockchain approach would be most      beneficial (highest score) and where it is less likely (but still may be applicable, just needs more scrutiny).
 
-**If your score is 20 or below:** A score of 20 or below typically represents a small ROI and limited applicability from a blockchain approach. Consider that while the score may be low, your situation may still warrant deeper analysis as there can be a compelling reason to continue with a blockchain approach that did not fall into the standard categorization. 
+<div class="results">
+    <h3 id="total">Total: 11 points</h3>
+    <p style="">
+        Provided here are common questions and relative weights for answers to serve as a preliminary guide for those considering a blockchain approach. While useful, this is still only a guide for consideration and further investigation. Sound engineering analysis and practices should still prevail.<br/>
+        <b>Score Groupings:</b> In order to assess the applicability of a blockchain approach, we have grouped scores to guide the reader to where taking a blockchain approach would be most beneficial (highest score) and where it is less likely (but still may be applicable, just needs more scrutiny).
+    </p>
+    <h4 id="grouping--15-20-total-points" style="">Score (-15 - 20 total points)</h4>
+    <p style="">A score of 20 or below typically represents a small ROI and limited applicability from a blockchain approach. Consider that while the score may be low, your situation may still warrant deeper analysis as there can be a compelling reason to continue with a blockchain approach that did not fall into the standard categorization.</p>
+    <h4 id="grouping-21-40-total-points" style="display: none;">Score (21 - 40 total points)</h4>
+    <p style="display: none;">A score of between 21 and 40 could typically be supported with a blockchain approach but isn’t an overwhelming natural candidate. These situations can have powerful reasons that can still drive a blockchain approach, yet they might also have mitigating factors that make a traditional approach a better alternative. In these situations, a more thorough analysis is typically needed.</p>
+    <h4 id="grouping-41-50-total-points" style="display: none;">Score (41 - 50 total points)</h4>
+    <p style="display: none;">A score above 41 typically represents a compelling ROI and strong applicability that would benefit significantly from a blockchain approach. It is strongly recommended to consider the costs and benefits of a blockchain approach in these instances while still considering other additive and mitigating factors in the organization, strategic direction, interdependencies, and related items</p>
+</div>
+</div>
+</form>
 
-**If your score is between 21 and 40:** A score of between 21 and 40 could typically be supported with a blockchain approach but isn’t an overwhelming natural candidate. These situations can have powerful reasons that can still drive a blockchain approach, yet they might also have mitigating factors that make a traditional approach a better alternative. In these situations, a more thorough analysis is typically needed.
-
-**If your score is 41 or higher:** A score above 41 typically represents a compelling ROI and strong applicability that would benefit significantly from a blockchain approach. It is strongly recommended to consider the costs and benefits of a blockchain approach in these instances while still considering other additive and mitigating factors in the organization, strategic direction, interdependencies, and related items. 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+</script>
 
 ## Practical Advice and Best Practices for Blockchain Assessment
 With blockchain near the top of the hype cycle in 20172, it is important to separate reality from the hype when it comes to which uses cases can actually benefit from a blockchain solution. Consider the following advice and best practices when evaluating blockchain for any use case.

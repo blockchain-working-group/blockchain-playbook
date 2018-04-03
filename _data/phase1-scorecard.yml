@@ -77,19 +77,19 @@ questions:
         checked: true
         id: assessment-4-0
       - value: -1
-        label: 1 – Slightly
+        label: -1 – Slightly
         id: assessment-4-1
       - value: -2
-        label: 2 - Moderate
+        label: -2 - Moderate
         id: assessment-4-2
       - value: -3
-        label: 3 - High
+        label: -3 - High
         id: assessment-4-3
       - value: -4
-        label: 4 – Very High
+        label: -4 – Very High
         id: assessment-4-4
       - value: -5
-        label: 5 - Critical
+        label: -5 - Critical
         id: assessment-4-5
   - question-title: 5.	Does the use case require or can it benefit from strict transaction immutability?
     question-description: Ledger transaction entries are append-only. Transaction records cannot be altered (even by the admin).
@@ -261,19 +261,19 @@ questions:
         checked: true
         id: assessment-12-0
       - value: -1
-        label: 1 – Slightly
+        label: -1 – Slightly
         id: assessment-12-1
       - value: -2
-        label: 2 - Moderate
+        label: -2 - Moderate
         id: assessment-12-2
       - value: -3
-        label: 3 - High
+        label: -3 - High
         id: assessment-12-3
       - value: -4
-        label: 4 – Very High
+        label: -4 – Very High
         id: assessment-12-4
       - value: -5
-        label: 5 - Critical
+        label: -5 - Critical
         id: assessment-12-5
   - question-title: Does the use case have high performance requirements? (transactions per second (TPS) > 3K/sec)? 
     question-description: Note that high performance/near real-time requirements are typically not yet met by blockchain solutions, but platforms and performance numbers will continue to evolve.
@@ -284,19 +284,19 @@ questions:
         checked: true
         id: assessment-13-0
       - value: -1
-        label: 1 – Slightly
+        label: -1 – Slightly
         id: assessment-13-1
       - value: -2
-        label: 2 - Moderate
+        label: -2 - Moderate
         id: assessment-13-2
       - value: -3
-        label: 3 - High
+        label: -3 - High
         id: assessment-13-3
       - value: -4
-        label: 4 – Very High
+        label: -4 – Very High
         id: assessment-13-4
       - value: -5
-        label: 5 - Critical
+        label: -5 - Critical
         id: assessment-13-5
 
 
