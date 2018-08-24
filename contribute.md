@@ -15,3 +15,5 @@ If you want to propose content:
 ACT-IAC will address the comments and pull requests at its discretion
 
 ** Note that if you are looking to be recognized as a contributor for adding content, you must be an ACT-IAC member **
+
+We also follow the following [Rules of Engagement](https://github.com/blockchain-working-group/blockchain-playbook/blob/master/rules-of-engagement.md)
