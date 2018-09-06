@@ -13,3 +13,5 @@ node_modules/
 .jekyll-metadata
 _site
 .sass-cache
+
+.DS_Store

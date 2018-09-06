@@ -7,7 +7,7 @@ sidenav: playbook
 
 # Introduction
 
-As noted in the Blockchain Primer [1], blockchain may be applied to help government to reduce fraud, errors, and the cost of paper-intensive processes, while enabling collaboration across multiple divisions and agencies to provide more efficient and effective services to citizens. The adoption of blockchain may enable government agencies to provide new value-added services and modernize IT. How can agencies turn that potential into reality?
+As noted in the Blockchain [Primer](https://www.actiac.org/act-iac-white-paper-enabling-blockchain-innovation-us-federal-government), blockchain may be applied to help government to reduce fraud, errors, and the cost of paper-intensive processes, while enabling collaboration across multiple divisions and agencies to provide more efficient and effective services to citizens. The adoption of blockchain may enable government agencies to provide new value-added services and modernize IT. How can agencies turn that potential into reality?
 
 - **Understand the technology using the Blockchain Primer:** Over one dozen federal agencies and a variety of industry partners collaborated to develop the ACT-IAC Blockchain Primer which provides the government workforce with an introduction to blockchain and its related technologies, as well as its many potential use cases. 
 

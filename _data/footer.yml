@@ -15,7 +15,7 @@ top:
 # Customize with 'text' property.
 # Uncomment the following line to show.
 # edit_page:
-#   text: Edit this page
+#  text: Edit this page
 
 # Configuration for "Last updated" date and time.
 # Uncomment the following line to show.
@@ -31,7 +31,7 @@ heading: ACT IAC
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
-  - src: /assets/img/playbook/actiac.png
+  - src: /assets/img/playbook/actiac-logo.png
     alt: ACT IAC
     external: false
 

@@ -57,6 +57,9 @@ secondary:
   - text: ACT-IAC
     href: https://www.actiac.org
     external: true
+  - text: Contribute
+    href: https://github.com/blockchain-working-group/blockchain-playbook/blob/master/contribute.md
+    external: true
 
 playbook:
   - text: Introduction
@@ -89,11 +92,9 @@ docs:
     href: https://18f.gsa.gov
     external: true
 
-#footer:
-#  - text: Documentation
-#    href: /docs/
-#  - text: Demo link
-#    href: /demo/
-#  - text: External link
-#    href: https://18f.gsa.gov
-#    external: true
+footer:
+  - text: Quickstart
+    href: /quickstart/
+  - text: Contribute
+    href: https://github.com/blockchain-working-group/blockchain-playbook/blob/master/contribute.md
+    external: true
