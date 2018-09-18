@@ -57,7 +57,7 @@ secondary:
   - text: ACT-IAC
     href: https://www.actiac.org
     external: true
-  - text: Contribute
+  - text: Feedback
     href: https://github.com/blockchain-working-group/blockchain-playbook/blob/master/contribute.md
     external: true
 
@@ -95,6 +95,6 @@ docs:
 footer:
   - text: Quickstart
     href: /quickstart/
-  - text: Contribute
+  - text: Feedback
     href: https://github.com/blockchain-working-group/blockchain-playbook/blob/master/contribute.md
     external: true
