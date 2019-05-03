@@ -45,4 +45,4 @@ _Figure 2: blockchain playbook phases and key activities matrix - [expand](../as
 
 Also included at the end of this playbook is a glossary to assist with the in-depth terminology associated with advanced blockchain concepts and appendices to elaborate on each selection topic at a more granular level. 
 
-[Next](/blockchain-playbook/phases/1/){: .usa-button .usa-button-big }
+[Next](/blockchain-playbook/phases/1/){: .usa-button }

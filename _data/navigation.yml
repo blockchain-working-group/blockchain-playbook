@@ -32,21 +32,21 @@ primary:
     href: /references/
   - text: Appendices
     links:
-      - text: Appendix A
+      - text: Appendix A - Blockchain Types
         href: /appendices/A/
-      - text: Appendix B
+      - text: Appendix B - Deployment Models
         href: /appendices/B/
-      - text: Appendix C
+      - text: Appendix C - Popular Blockchain Platforms
         href: /appendices/C/
-      - text: Appendix D
+      - text: Appendix D - Blockchain as a Service
         href: /appendices/D/
-      - text: Appendix E
+      - text: Appendix E - Platform Resource Requirements
         href: /appendices/E/
-      - text: Appendix F
+      - text: Appendix F - Blockchain Technology Criteria
         href: /appendices/F/
-      - text: Appendix G
+      - text: Appendix G - Sample Friendly Contract Vehicles
         href: /appendices/G/
-      - text: Appendix H
+      - text: Appendix H - Decentralized Organizations
         href: /appendices/H/    
   - text: About
     href: /about/

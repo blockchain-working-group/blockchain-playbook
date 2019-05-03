@@ -34,8 +34,8 @@ The participants may contain other stakeholders in part or whole of this phase. 
 ## Approach Guidance
 In most cases, the Assessment Phase will precede the Readiness Phase to ensure use case selection and business relevance for the effort has been determined. Although rare, some government agencies may have assessment and readiness phases running in parallel. For example, this may occur when an agency has already completed a proof of concept and is planning for a larger project based on the proof of concept or integration with an external agency that has already implemented DLT.
 
-![Playbook Phases](../../assets/img/playbook/playbook-process-phase2-alt.png)
-_Figure 5: Readiness Phase (2) summary_
+![Playbook Phases](../../assets/img/playbook/pb-phase-2.png)
+_Figure 5: Readiness Phase (2) summary - [expand](../../assets/img/playbook/pb-phase-2.png){:target="_blank"}_
 
 ## Key Activities
 Activities in this phase vary depending on the type and scope of selected use cases. Below is a notional activity guideline to prepare an organization for blockchain implementation:
@@ -148,3 +148,5 @@ At the end of the Readiness Phase, the agency should be able to answer the follo
     - How will change be managed for the impacted people, processes and system?
 
 At the end of a successful Readiness Phase, the stakeholders should have a joint understanding of the responses to the questions highlighted in the Decision Gate section.
+
+[Next](/blockchain-playbook/phases/3/){: .usa-button  }

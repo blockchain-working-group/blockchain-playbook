@@ -18,8 +18,8 @@ This section explores each of these factors in depth to guide you in the selecti
 ## Phase Inputs
 The Selection Phase expands upon the outputs from the Readiness Phase and starts delving into the various concepts and requirement categories that need to be considered and analyzed for successful selection and implementation of a blockchain solution.
 
-![Playbook Phases](../../assets/img/playbook/playbook-process-phase3.png)
-_Figure 6: Selection Phase (3) summary_
+![Playbook Phases](../../assets/img/playbook/pb-phase-3.png)
+_Figure 6: Selection Phase (3) summary - [expand](../../assets/img/playbook/pb-phase-3.png){:target="_blank"}_
 
 ## Business Considerations
 The business problem and requirements must be clearly identified to ensure the appropriate blockchain platform is selected. Blockchain is a cross-cutting and transformative technology, but it is not the solution to every problem. Review and understand the description of the platform to ensure it matches the need. Look past the jargon to understand the specific differences noted below:
@@ -130,3 +130,5 @@ The following factors will determine your moving to the next phase:
 - If your development and operating cost exceed your funding level, stop at this phase.
 - If you don’t have a contract vehicle, stop at this phase.
 - If your resources are not up to speed with the technology, stop at this phase.
+
+[Next](/blockchain-playbook/phases/4/){: .usa-button  }

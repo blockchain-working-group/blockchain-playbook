@@ -52,4 +52,4 @@ This playbook is intended to be used in an iterative way. One can go through the
 **How do I handle a use case with multiple organizations?**
 Each phase deals more or less with understanding the organization(s) in play for the implementation of the solution. If you know more than one organization will be involved, when you look at the organizational aspects of the solution, address from the start the need for a multi-organization solution.
 
-[Next](/blockchain-playbook/intro/){: .usa-button .usa-button-big }
+[Next](/blockchain-playbook/intro/){: .usa-button }

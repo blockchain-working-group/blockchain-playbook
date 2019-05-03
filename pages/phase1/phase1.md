@@ -21,8 +21,8 @@ Blockchain is the catalyst for tectonic shift in the accepted business model: de
  
 To fully assess opportunities in blockchain, engage with stakeholders to refine the use case the blockchain initiative will address. Identify and document the context of the use case. This includes the business challenge; business process issues, gaps, and/or frictions that contribute to that challenge; and stakeholder needs. Detail the stakeholders’ functional requirements. Also, determine their perceived risks related to implementing a solution along with their expected outcomes and the associated metrics. 
 
-![Playbook Phases](../../assets/img/playbook/playbook-process-phase1-alt.png)
-_Figure 3: assessment phase (1) summary_
+![Playbook Phases](../../assets/img/playbook/pb-phase-1.png)
+_Figure 3: assessment phase (1) summary - [expand](../../assets/img/playbook/pb-phase-1.png){:target="_blank"}_
 
 ## “Do I need a blockchain?” 
 When considering a blockchain solution, evaluate both the associated potential benefits and limitations, such as whether a blockchain solution will remove some of the existing business frictions associated with the current business process. Determine if characteristics, such as trust, immutability and finality, provide significant value for the use case being evaluated. Assess whether those benefits result in a reduction in cost and/or risk, or if they will achieve process efficiencies. Analyze if there are additional benefits that can be realized by growing the business network associated with the solution.
@@ -90,8 +90,8 @@ Before addressing how to introduce this new technology into your ecosystem, defi
 ### Business Capabilities and Blockchain Capabilities
 Consider mapping your business capabilities to your blockchain capabilities. Below is an example of a General Services Administration (GSA) vehicle fleet model. The stakeholders need to track mileage of vehicles usage across various agencies users, and states. This alignment serves two purposes: 1) Stakeholders are aware of which business capabilities they plan on transforming, and 2) Blockchain [capabilities] are validated as the correct emerging technology for the business solution.
 
-![Playbook Phases](../../assets/img/playbook/playbook-DO1.png)
-_Figure 4: alignment - business-to-business blockchain_
+![Playbook Phases](../../assets/img/playbook/pb-bus-to-bus.png)
+_Figure 4: alignment - business-to-business blockchain - [expand](../../assets/img/playbook/pb-bus-to-bus.png){:target="_blank"}_
 
 ### Build Blockchain Architectural Blueprint for Future Phases
 Develop a vision and a plan for the additional requirements and challenges that will need to be addressed if your solution moves into a pilot phase and subsequent operational phases. This should encompass modernization and integration with legacy systems. The project will also include major change management components both from an operational and cultural perspective. 
@@ -148,3 +148,5 @@ If your score is between 21 and 40, it is recommended to commence the Playbook r
 If your score is between 5 and 20, it is recommended to further review of your inputs and the assigned weights before determining if the proof of concept is applicable for blockchain and continuing with the readiness review.
 
 If your score is between 0 – 5, it is recommended that the proof of concept is not appropriate for blockchain.
+
+[Next](/blockchain-playbook/phases/2/){: .usa-button  }
