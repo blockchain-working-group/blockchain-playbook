@@ -13,7 +13,7 @@
 #
 primary:
   - text: Start
-    href: /intro/
+    href: /welcome/
   - text: Phases
     links:
       - text: Assessment
@@ -52,8 +52,6 @@ primary:
     href: /about/
 
 secondary:
-  - text: Quickstart
-    href: /quickstart/
   - text: ACT-IAC
     href: https://www.actiac.org
     external: true
@@ -62,6 +60,8 @@ secondary:
     external: true
 
 playbook:
+  - text: Welcome
+    href: /welcome/
   - text: Introduction
     href: /intro/
   - text: Assessment 
@@ -93,8 +93,6 @@ docs:
     external: true
 
 footer:
-  - text: Quickstart
-    href: /quickstart/
   - text: Feedback
     href: https://github.com/blockchain-working-group/blockchain-playbook/blob/master/contribute.md
     external: true

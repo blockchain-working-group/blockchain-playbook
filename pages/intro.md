@@ -25,8 +25,8 @@ To address the current high level of government interest and desire to begin dep
 
 As government efforts move through implementation of this new and rapidly developing technology, contributions to this playbook (e.g. additional best practices, lessons learned, and other information) are appreciated to ensure this resource is current, comprehensive, and effective in meeting the needs of government.
 
-![Playbook Phases](../assets/img/playbook/playbook-process.png)
-_Figure 1: blockchain playbook phases_
+![Playbook Phases](../assets/img/playbook/pb-process.png)
+_Figure 1: blockchain playbook phases - [expand](../assets/img/playbook/pb-process.png){:target="_blank"}_
 
 The first three phases of a five-phased approach, which includes key activities and outcomes for each phase, are addressed in this edition of the playbook. 
 
@@ -36,10 +36,13 @@ The first three phases of a five-phased approach, which includes key activities 
 
 **Phase 3 Technology Selection:** Conduct a thorough investigation of the business considerations (e.g. consensus mechanism, transaction costs, and on chain/off-chain data requirements), types of blockchains, digital asset and distributed ledger technology (DLT) requirements and considerations, deployment models, and procurement options to enable optimal provider selection to achieve the desired end state.
 
-![Playbook Phases](../assets/img/playbook/playbook-process-activities.png)
-_Figure 2: blockchain playbook phases and key activities matrix_
+**Phase 4 Blockchain Implementation:** Do the implementation, customization and configuration of the blockchain solution.
+
+**Phase 5 blockchain Integration:** Integrate the blockchain solution into the organization(s)' infrastructure.
+
+![Playbook Phases](../assets/img/playbook/pb-key-activities.png)
+_Figure 2: blockchain playbook phases and key activities matrix - [expand](../assets/img/playbook/pb-key-activities.png){:target="_blank"}_
 
 Also included at the end of this playbook is a glossary to assist with the in-depth terminology associated with advanced blockchain concepts and appendices to elaborate on each selection topic at a more granular level. 
 
-Later this year, part 2 of the playbook will be published, covering the final phases of the framework: Phase 4 Implementation and customization, and Phase 5 Integration. 
- 
+[Next](/blockchain-playbook/phases/1/){: .usa-button .usa-button-big }
