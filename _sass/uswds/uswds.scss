@@ -6,7 +6,8 @@
 @import 'lib/normalize';
 
 // Core -------------- //
-@import 'core/variables';
+//@import 'core/variables';
+@import '../custom/variables';
 @import 'core/fonts';
 @import 'core/grid';
 @import 'core/utilities';
