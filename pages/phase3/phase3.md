@@ -107,6 +107,23 @@ To ensure the use of new, more effective technologies and methods is not blocked
 #### Pay for results, not time
 Buy blockchain design and development services as a repeated process for the delivery of a working product. When technical requirements are not locked into the contract and the government and the vendor together formalize the definition of “done,” then one of the most advantageous pricing formats is firm-fixed price per iteration. When the vendor completes the user stories at the end of the sprint, and the definition of done is met, the vendor gets paid and the government receives working code that is ready to be deployed.
 
+## Acquisition Considerations
+The focus in government in engaging in any new Blockchain endeavor begins with the contracting community which includes Contract Officers (CO), Contract Specialist (CS), and Contract Officer Representatives (COR/COTR). The acquisition workforce enables the government to access and consume emerging technologies such as Blockchain. 
+
+If the introduction of a Blockchain enabled portfolio requires a Blockchain enabled enterprise, provide appropriate infrastructure requirements to the Enterprise Architect and Information Systems Security Officer for concurrence.  Enable and configure the General Support System (GSS) to accommodate the newly tooled portfolio.  Enabling the enterprise may require contract modifications in future phases across the vendor landscape.  Collaboration with the Contracting Officer stabilizes the project as a whole.
+
+### Develop Acquisition Models and Milestones 
+You have assessed and selected the Blockchain technology.  You have determined the readiness of the agency.  The acquisition now turns its attention to the solicitation and production aspects of the program.  If the Blockchain project is considered a pilot or proof of concept, the acquisition team can utilize specialty mechanisms such as the Procurement Innovation Resource Center’s (PIRC) Commercial Solutions Opening (CSO) procedures.  This program is designed to expand beyond the current Federal Acquisition Regulation (FAR) procurement methods. CSO provides a streamlined approach to exploring the acquisition of emerging technologies by the federal government.  If the project is considered a standard modernization activity of the current portfolio, the Contract Office follows standard procurement methods for their agency. The solicitation defines the method of evaluation, basis of evaluation, basis of award and determination of price fair and reasonableness.  These criteria assist in the selection of the successful bidder.
+ 
+### Define Performance Metrics
+The project team provides performance metrics for both the technology and services to be included in Section C of the solicitation documents. The Statement of Work (SOW) expresses expected Service Level Agreements (SLA) and performance metrics to assess the success of the implementing contractor and overall success of the program.
+
+### Prepare Acquisition
+The Statement of Work (SOW) will also state the selected technology for the desired Blockchain solution, express the component and configuration of the selected platform, describe the required supplies and/or services required by the government for implementation of the target technology, and define anticipated tasks necessary to successfully implement the Blockchain enabled solution. 
+
+### Award Solicitation
+The source selection team evaluates offerors, identify deficiencies, weaknesses, risks, and strengths.  After scoring proposals, the source selection team with produce proposal analysis reports and brief the source selection authority.  Upon award of the solicitation, the Acquisition Team approves the contract, send out notifications to all acquisition participates, announce the award and debrief unsuccessful offerors.  Notice to proceed is sent to the project office to implement the selected Blockchain solution.
+
 ## Phase Outputs
 After analyzing the various factors that have to be considered in choosing a blockchain platform, a detailed platform model starts to evolve, which then drives a detailed schedule, cost, resource and task estimate. The corresponding acquisition model, along with the operational framework, start to take shape.
 
