@@ -16,13 +16,16 @@ Blockchain was first introduced as a type of DLT presented as the underlying pla
 This section explores each of these factors in depth to guide you in the selection process.
 
 ## Phase Inputs
+
 The Selection Phase expands upon the outputs from the Readiness Phase and starts delving into the various concepts and requirement categories that need to be considered and analyzed for successful selection and implementation of a blockchain solution.
 
 ![Playbook Phases](../../assets/img/playbook/pb-phase-3.png)
 _Figure 6: Selection Phase (3) summary - [expand](../../assets/img/playbook/pb-phase-3.png){:target="_blank"}_
 
 ## Business Considerations
+
 The business problem and requirements must be clearly identified to ensure the appropriate blockchain platform is selected. Blockchain is a cross-cutting and transformative technology, but it is not the solution to every problem. Review and understand the description of the platform to ensure it matches the need. Look past the jargon to understand the specific differences noted below:
+
 - Governance – Determine the nature of who controls and governs the software platform. For example, open source platforms, such as Ethereum and Hyperledger Fabric, are governed by their developer communities via nonprofit foundations, whereas Corda is managed by a corporate consortium called R3. The governance model could affect the support available.
 - Mode of operation – Blockchain infrastructure can be operated as permissioned or permissionless. Government typically requires the permissioned mode for security reasons, but there could be use cases for connecting to the public permissionless chains, especially as techniques like zero knowledge proof protocols evolve.
 - Transaction costs – Apps deployed on the Ethereum public blockchain incur transaction costs based on computational resources consumed. Private blockchain implementations do not have this requirement, but require their own supporting infrastructure, such as cloud servers.
@@ -40,8 +43,11 @@ The business problem and requirements must be clearly identified to ensure the a
     - System maintenance – Will you use your own DevOps resources and manage the service level agreement governance or leave that to the blockchain service provider?o Initial costs – Setting up an environment to test and research blockchain is not a trivial undertaking. A private cloud is more expensive upfront but allows the organization to better control the resource usage across users. A service offering is simpler, but less configurable.
 
 ## Technology Considerations
+
 ### Permissioned versus Public Permissionless Blockchain
+
 A blockchain is a data structure that makes it possible to create a digital ledger of data and share it among a network of independent parties. There are mainly three different types of blockchains.
+
 - Public blockchain networks
 - Permissioned blockchain networks
 - Private blockchain networks
@@ -49,7 +55,9 @@ A blockchain is a data structure that makes it possible to create a digital ledg
 All three types of blockchains use cryptography to allow each participanton any given network to manage the ledger in a secure way without the need for a central authority to enforce the rules. In addition to an introduction to the types of blockchains in the ACT-IAC Blockchain Primer, Appendix A provides further details about these blockchain networks.
 
 ### Determining Which Blockchain is Right For You
+
 The following criteria should be considered while evaluating a blockchain for any project:
+
 - Fitness for purpose – Consider and research to ensure the business requirements are within the scope of the mission of the product. For example, solutions like SkuChain or R3 Corda are purpose-built for financial transactions, while tools like Linux Foundation’s Hyperledger Fabric or Microsoft’s CoC o are generic solutions, allowing you to build purpose fit products to meet your requirements.
 - Operational considerations
     - Blockchain scalability and volume – The scalability of a particular blockchain network type determines the maximum transaction throughput (number of transactions processed per second) and, as your blockchain grows, the maximum volume of transactions that can be processed within reasonable performance criteria. Adequately develop the lifecycle requirements to ensure the solution being considered meets the scalability the agency needs over time.
@@ -62,7 +70,9 @@ The following criteria should be considered while evaluating a blockchain for an
 There may be exceptions depending on the project, and it is possible to use a different type of blockchain to reach a particular project’s goal. Please refer to Appendix F for further explanation of the technical criteria.
 
 ### Digital Assets and DLT Requirements
+
 A digital asset is a floating claim of a certain service or good(s). It is ensured by the asset issuer, which is not linked to a particular account, and it is governed using computer technologies and the internet – including asset issuance claim of ownership, and transfer. Blockchain-based DLT provides an alternative to centralized digital asset management system by providing:
+
 - Distributed transaction processing – Transactions are processed in a decentralized manner by geographically distributed nodes of the network. Moreover, defining the rules for transaction processing (e.g., defining what valid transactions are) could be split from the processing.
 - Asset issuance – In the most general case, this could be performed by any user of the network.
 - Security of a user’s funds – This could be performed by third parties using custodial or non- custodial wallets.
@@ -70,7 +80,9 @@ A digital asset is a floating claim of a certain service or good(s). It is ensur
 - Application development – This does not require cooperation with blockchain maintainers.
 
 ### Specific Considerations of a Blockchain Supporting Digital Asset Management
+
 There are some additional considerations for using blockchain technology to support digital asset management (additional details are in Appendix F):
+
 - Blockchain specification
     - Transaction logic – What are valid transactions with regard to the present system state (e.g. the rules regarding how transactions transform the system state, etc.)
     - Immutability logic – What transactions constitute a block and how are the block headers secured.
@@ -83,52 +95,68 @@ There are some additional considerations for using blockchain technology to supp
 - Deployment models
 
 ### Deployment Models
+
 There are various deployment models for blockchains in the market. Government should consider which model suits them the best. Listed below are the common models. Please refer to Appendix B for details.
+
 - Separate Blockchains for Assets: Each digital assetor a setof assets maintained by the same issuer could potentially have its own blockchain, either permissionless or permissioned.
 - Colored Coin Protocols: Colored coin protocols share the user authentication model with the underlying blockchain. Some examples include Chromaway, metacoins and Open Assets.
 - Multi-Asset Blockchains: Multiple assets can be natively supported by a blockchain. Multi-asset blockchains have more space-efficient proofs of ownership, as simplified payment verification could be utilized for all natively supported blockchain assets.
 - Smart Contracts: User-defined assets could be represented with the help of a smart contracton a smart contract blockchain.
 
 ### Open Source Versus Proprietary Blockchain Platforms
+
 Differentopen source blockchain platforms are suitable options in implementing different consensus protocol mechanism, blockchain network types or specific use cases. They are a good option when implementing blockchains with more censorship resistant use cases. The use of open source blockchains would reduce the investment cost in building blockchain services. However, organizations may need to manage the security, scalability and throughput considerations in their own custom ways. Interoperability and ease of integration are areas of consideration, as open source blockchain platforms do not traditionally do well in these areas. (Details for open source/proprietary models are in Appendix C.) Blockchain as a Service (BaaS) (details in Appendix D) is an emerging model that combines the benefits of an open source platform with the benefits of proprietary solutions.
 
 ### How to Buy – Reference to GSA Atlas
+
 While the procurement methods and vehicles vary, GSA’s FastLane process improvement contract serves as a good example of how an agency should procure a blockchain solution.
 
 #### Leverage commercial contracting methods
+
 Leverage the efficiency of commercial contracting methods. Blockchain was created by the commercial industry, so government should buy it as a commercial item and use commercial buying methods. Similar to how private companies structure blockchain development buys, the procurement process should require vendors show, or demonstrate, how they build blockchain products, not merely tell about process via a long proposal. In addition, industry doesn’t use cost- type contracts for blockchain and neither should government.
 
 #### Buy small, build small, test, and iterate
+
 Set up each contract for a quick win, then determine how to scale that success or pivot quickly. Well-intentioned agencies frequently default to creating large scale software development contracts. However, these procurements often take years. In addition, larger contracts often lead to more bureaucracy, slowing down the delivery of a working blockchain. Instead, adopt modular contracting methods. First award a smaller contract for the developmentof a blockchain MVP. The time to award will be faster, the procurement risk lower, and within 12 months of award, the agency will likely show a quick win with a deployed working product. Working products also convince others about the utility of the technology and, therefore, play a role in the agency's comfort and adoption of blockchain. Once the MVP is developed, the agency can pivotor procure additional services to further develop features for the blockchain product.
 
 #### Do not lock technical requirements into the contract
+
 To ensure the use of new, more effective technologies and methods is not blocked, do not lock technical requirements into the contract. Overly prescriptive requirements significantly limit a vendor’s flexibility to propose innovative approaches to blockchain. They also wrongly assume that the features described in the original requirements document are equally valuable and the users’ needs will not change over time. This significantly limits the ability to leverage valuable blockchain product features that are not yet developed. Instead, use a Statementof Objectives to scope the requirement around the use case or product vision. The government will still control the technical requirements in the form of user stories, which will be crafted during the life of the contract and will be prioritized and selected by the productowner before each iteration cycle. The contract will provide the flexibility to build any features within the broader use case or product vision. In addition, this approach allows technological enhancements to never end.
 
 #### Pay for results, not time
+
 Buy blockchain design and development services as a repeated process for the delivery of a working product. When technical requirements are not locked into the contract and the government and the vendor together formalize the definition of “done,” then one of the most advantageous pricing formats is firm-fixed price per iteration. When the vendor completes the user stories at the end of the sprint, and the definition of done is met, the vendor gets paid and the government receives working code that is ready to be deployed.
 
 ## Acquisition Considerations
-The focus in government in engaging in any new Blockchain endeavor begins with the contracting community which includes Contract Officers (CO), Contract Specialist (CS), and Contract Officer Representatives (COR/COTR). The acquisition workforce enables the government to access and consume emerging technologies such as Blockchain. 
+
+The focus in government in engaging in any new Blockchain endeavor begins with the contracting community which includes Contract Officers (CO), Contract Specialist (CS), and Contract Officer Representatives (COR/COTR). The acquisition workforce enables the government to access and consume emerging technologies such as Blockchain.
 
 If the introduction of a Blockchain enabled portfolio requires a Blockchain enabled enterprise, provide appropriate infrastructure requirements to the Enterprise Architect and Information Systems Security Officer for concurrence.  Enable and configure the General Support System (GSS) to accommodate the newly tooled portfolio.  Enabling the enterprise may require contract modifications in future phases across the vendor landscape.  Collaboration with the Contracting Officer stabilizes the project as a whole.
 
-### Develop Acquisition Models and Milestones 
+### Develop Acquisition Models and Milestones
+
 You have assessed and selected the Blockchain technology.  You have determined the readiness of the agency.  The acquisition now turns its attention to the solicitation and production aspects of the program.  If the Blockchain project is considered a pilot or proof of concept, the acquisition team can utilize specialty mechanisms such as the Procurement Innovation Resource Center’s (PIRC) Commercial Solutions Opening (CSO) procedures.  This program is designed to expand beyond the current Federal Acquisition Regulation (FAR) procurement methods. CSO provides a streamlined approach to exploring the acquisition of emerging technologies by the federal government.  If the project is considered a standard modernization activity of the current portfolio, the Contract Office follows standard procurement methods for their agency. The solicitation defines the method of evaluation, basis of evaluation, basis of award and determination of price fair and reasonableness.  These criteria assist in the selection of the successful bidder.
  
 ### Define Performance Metrics
+
 The project team provides performance metrics for both the technology and services to be included in Section C of the solicitation documents. The Statement of Work (SOW) expresses expected Service Level Agreements (SLA) and performance metrics to assess the success of the implementing contractor and overall success of the program.
 
 ### Prepare Acquisition
+
 The Statement of Work (SOW) will also state the selected technology for the desired Blockchain solution, express the component and configuration of the selected platform, describe the required supplies and/or services required by the government for implementation of the target technology, and define anticipated tasks necessary to successfully implement the Blockchain enabled solution. 
 
 ### Award Solicitation
+
 The source selection team evaluates offerors, identify deficiencies, weaknesses, risks, and strengths.  After scoring proposals, the source selection team with produce proposal analysis reports and brief the source selection authority.  Upon award of the solicitation, the Acquisition Team approves the contract, send out notifications to all acquisition participates, announce the award and debrief unsuccessful offerors.  Notice to proceed is sent to the project office to implement the selected Blockchain solution.
 
 ## Phase Outputs
+
 After analyzing the various factors that have to be considered in choosing a blockchain platform, a detailed platform model starts to evolve, which then drives a detailed schedule, cost, resource and task estimate. The corresponding acquisition model, along with the operational framework, start to take shape.
 
 ## Decision Gate
+
 At the end of Selection Phase, the following use case questions should be answerable:
+
 - What type of blockchain technology should be used? Is it private or permissioned or public?
 - The blockchain mechanism to be used to maintain ‘world state’ (PoW, proof of stake, smart contract, etc.)
 - A Governance Model
@@ -144,6 +172,7 @@ At the end of Selection Phase, the following use case questions should be answer
 - A procurement approach and model, with all the necessary approvals.
 
 The following factors will determine your moving to the next phase:
+
 - If your development and operating cost exceed your funding level, stop at this phase.
 - If you don’t have a contract vehicle, stop at this phase.
 - If your resources are not up to speed with the technology, stop at this phase.
