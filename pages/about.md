@@ -31,3 +31,53 @@ This document has been prepared to contribute to a more effective, efficient, an
 **Further Information**
 
 For further information, contact the American Council for Technology-Industry Advisory Council at (703) 208-4800 or www.actiac.org. 
+
+## Acknowledgements
+
+The Blockchain Working Group thanks the authors and contributors who provided a tremendous amount of time and good humor to bring Blockchain Playbook for the U.S. Federal Government to completion. The Blockchain Working Group would like to also thank Nancy Delanoche (ACT-IAC), Dylan Yaga (NIST), Wendy Beck (Net Impact Strategies), Michael Soucy (US Air Force), Rick Holgate (Gartner), and Tim Young (Deloitte) who provided invaluable feedback as reviewers.
+
+**Authors and Affiliations**
+
+This paper was written by a consortium of government and industry. The organizational affiliations of the authors and contributors are included for information purposes only. The views expressed in this document do not necessarily represent the official views of the individuals and organizations that participated in its development.
+
+- Jose Arrieta - HHS
+- Sandy Barsky - GSA
+- Frederic de Vaulx - Prometheus Computing LLC
+- Todd Hager - Macro Solutions
+- Sean Hetherington - Adobe
+- Bruno Kelpsas - GSA
+- Jim Keys - Applied Computer Engineering
+- Venkat Kodumudi - CGI Federal
+- Brent Maravilla - OMB
+- Sonia Mundra Chenega - ABS
+- Kelly Pippin - GSA
+- Sanjeev Raman - CyberBahn Federal Solutions
+- Alexander Rebo - IRS
+- Mike Rice - CornerStone IT
+- Sherri Sokol - DISA
+- Arushi Srivastava - NTT DATA
+- Jon Tame - Deloitte
+- Jeff Tennenbaum - IBM
+- Star Vanamali - Publicis Sapient
+- Andrew Vanjani - GSA
+- Sudha Venkateswaran - Pyramid Systems
+- Aleks Zelenovic - Sapient Consulting Public Sector
+
+**Contributors and Affiliations**
+
+- Lateef Abro - Dun & Bradstreet
+- Paul Bajinder - Infozen
+- Padam Damanjit - Macro Solutions
+- Bill Engel - Rapid Cycle Solutions
+- Amy Fadida A.M. - Fadida Consulting
+- Mark Fisk - IBM
+- Jean Lewis - Sapient Consulting Public Sector
+- David Nguyen - United Solutions
+- Alexander Permison - U.S. Department of the Treasury
+- Silvana Rodriguez - U.S. Department of State
+- Liam Speden - RG
+- John Sprague - NASA
+- Jamuna Sundararajan - CyberBahn Federal Solutions
+- Cesar Tavares - Octo Consulting
+- Michelle White - GSA
+- Robert Wuhrman - GSA
