@@ -6,7 +6,7 @@ sidenav: playbook
 ---
 
 # Welcome
-welcome to the blockchain playbook. In this section, you’ll find valuable information to help you understand the framework laid out in this document and a series of questions to guide you in the playbook and help you kick start your blockchain development journey.
+Welcome to the blockchain playbook! This easy-to-use guide has been designed with you in mind. In this section, you’ll find valuable information to help you understand the framework laid out in this document and a series of questions to guide you in the playbook and help you kick start your blockchain development journey.
 
 ## Framework Flow
 The playbook introduces a framework made out of several phases connected to one another sequentially to guide you through key activities that will help you leverage blockchain technologies to tackle your use case. 
@@ -19,10 +19,7 @@ Each phase is connected to a decision gate before automatically going to the nex
 ![Playbook Phases](../assets/img/playbook/pb-phase-flow.png)
 _Figure 1: blockchain playbook process phase flow - [expand](../assets/img/playbook/pb-phase-flow.png){:target="_blank"}_
 
-## Playbook Navigation
-In addition, each phase is made up of key activities and outcomes whose purpose is to help you work through aspects needed to achieve your use case objectives leveraging blockchain technologies. The phase has inputs necessary for the key activities and generated outputs that will be needed for the decision gate. These outputs will also be used as inputs for the next phase.
-
-**Where do I start?**
+## Where do I start?
 The introduction section contains graphics that show the process and summarize the key activities for each of the phases. In addition, each phase also contains a more detailed graphic that summarizes the objective of the phase, its key activities and outcomes, inputs, and outputs. It is a good start to take a look at each of them to get a sense of what will happen in each phase.
 
 **I am a senior executive, what should I focus on?**
@@ -36,6 +33,8 @@ You can focus on the “acquisition” key activities category of each phase as 
 
 **I am on the development team, what should I focus on?**
 You should have a good understanding of the inputs needed to implement the technical solution. Focus on the “technology” key activities category of each phase.
+
+## Frequently Asked Questions
 
 **What is Blockchain or DLT?**
 Please refer to the Primer published by ACT-IAC.
