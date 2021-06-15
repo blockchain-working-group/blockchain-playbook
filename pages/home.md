@@ -19,7 +19,7 @@ layout: home
 
 tagline: Blockchain Playbook for Federal U.S. Government 
 intro: |
-  This Playbook comes right after the [Primer](https://www.actiac.org/act-iac-white-paper-enabling-blockchain-innovation-us-federal-government) and proposes a process and a series of phases to support the United States Federal government in its understanding and application of blockchain and distributed ledger technologies for its mission. Each phase contains a set of key activities organized in function areas that go beyond just the technical aspect of blockchain and cover management, people, process and acquisition areas.
+  We are excited to help you get started in your journey in blockchain technology! This Playbook is designed to be applied by user groups of all sizes, budgets and levels of blockchain sophistication and knowledge. This easy-to-use Playbook is meant to follow and build upon the [Primer](https://www.actiac.org/act-iac-white-paper-enabling-blockchain-innovation-us-federal-government) and proposes a process and a series of phases to support the United States Federal government in its understanding and application of blockchain and distributed ledger technologies for its mission. Each phase contains a set of key activities organized in functional areas that go beyond just the technical aspect of blockchain and cover key issues in management, people, process and acquisition. 
 
   [Start](/blockchain-playbook/welcome/){: .usa-button .usa-button-big }
 
